@@ -1,7 +1,6 @@
 CREATE TABLE projetcs (
   id INTEGER PRIMARY KEY,
   title TEXT,
-  title TEXT,
   category TEXT,
   funding_goal INTEGER,
   start_date TEXT,
