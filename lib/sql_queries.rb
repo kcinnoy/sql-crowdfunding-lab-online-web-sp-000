@@ -66,6 +66,6 @@ SELECT projects.category, sum(pledges.amount)
 FROM projects
 INNER JOIN pledges
 ON projects.id = pledges.project_id
-WHERE project.category = 'books'
+WHERE projects.category = 'books'
 "
 end
